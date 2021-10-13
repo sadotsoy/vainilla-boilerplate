@@ -2,9 +2,7 @@
   "name": "sketch-01",
   "version": "1.0.0",
   "author": "Sadot Cortes <sadotcortes@gmail.com>",
-  "private": true,
   "license": "MIT",
-  "dependencies": {},
   "scripts": {
     "build": "webpack --progress --config webpack.config.build.js",
     "dev": "webpack serve --open --progress --config webpack.config.development.js",
