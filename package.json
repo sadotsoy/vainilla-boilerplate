@@ -1,0 +1,34 @@
+{
+  "name": "sketch-01",
+  "version": "1.0.0",
+  "author": "Sadot Cortes <sadotcortes@gmail.com>",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "build": "webpack --progress --config webpack.config.build.js",
+    "dev": "webpack serve --open --progress --config webpack.config.development.js",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "css-loader": "^6.4.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "html-webpack-plugin": "^5.3.2",
+    "image-minimizer-webpack-plugin": "^2.2.0",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "mini-css-extract-plugin": "^2.4.2",
+    "postcss": "^8.3.9",
+    "postcss-loader": "^6.1.1",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.4.1",
+    "sadotsoy-utils": "^1.0.5",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
