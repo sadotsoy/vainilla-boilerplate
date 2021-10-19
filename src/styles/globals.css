@@ -9,7 +9,23 @@
   padding: 0;
 }
 
-body {
-  min-width: 320px;
+html, body {
+  height: 100%;
   font-family: system-ui;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 320;
+}
+
+#canvas {
+  display: block;
+  box-shadow: 0 0 6px 0 rgba(80, 80, 85, 0.4);
+
+  width: 85%;
+  height: 85%;
 }
